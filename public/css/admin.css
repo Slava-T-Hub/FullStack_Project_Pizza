@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /*-----------------------------------------------------------*/
+  /* // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 900
+  
+  .league-spartan-<uniquifier> {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+  
+  /*-----------------------------------------------------------*/
+  body {
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    margin-top: 50px;
+  }
+  /*----------------------------------------------------------------*/
+  /*---------------------------------------------------------table--*/
+
+.tableStyle {
+    padding: 20px;
+    background: #758694;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  table {
+    max-width: 820px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 20px;
+    background: #e7e3e0;
+    color: #405d72;
+    border-radius: 10px;
+  }
+  
+  th {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  th, td {
+   padding: 15px;
+   border: 2px solid black;
+}
+
+tr {
+  border-bottom: 2px solid black; 
+}
+
+.editBtn {
+  text-decoration: none;
+  color: white;
+  background: green;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.customerDiv{
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e7e3e0;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.customerName {
+  font-size: clamp(1rem, 0.9714rem + 0.1429vw, 1.3rem);
+}
+
+.orderCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 2px black solid;
+  border-radius: 10px;
+  background: rgb(184, 183, 183);
+}
+.orderIdDate {
+  margin-top: 10px;
+  background: #e7e3e0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.orderDeleteBtn {
+  background: rgb(63, 11, 11);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  transition: 0.1s all ease-in;
+}
+.orderDeleteBtn:hover {
+  background: red;
+}
